@@ -1,0 +1,17 @@
+# Credenciais e configuração local
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*
+credenciais*
+secrets*
+
+# Artefatos locais
+.DS_Store
+__pycache__/
+*.pyc
+*.log
